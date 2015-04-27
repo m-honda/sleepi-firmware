@@ -1,0 +1,12 @@
+Source: sleepi-firmware
+Section: unknown
+Priority: extra
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.mechatrax.com/
+
+Package: sleepi-firmware
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}, raspberrypi-bootloader (>= 1.20150214-1)
+Description: Devicetree overlay binary for slee-Pi
