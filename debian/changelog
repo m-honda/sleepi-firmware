@@ -1,3 +1,9 @@
+sleepi-firmware (0.1-2) unstable; urgency=low
+
+  * Add preinst script
+
+ -- Masahiro Honda <honda@mechatrax.com>  Tue, 28 Apr 2015 07:27:59 +0000
+
 sleepi-firmware (0.1-1) unstable; urgency=low
 
   * Initial release
